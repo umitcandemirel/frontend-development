@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formlar</title>
+</head>
+<body>
+    <form action="/Home/Register">
+        <p>
+        Profil Resmi Seçiniz: <input type="file" name="profil_resmi" accept="image/*">
+        </p>
+        <p>
+        <label>Ad:<input type="text" name="Ad" placeholder="adınızı giriniz." required></label>
+        </p>
+        <p>
+        Soyad <input type="text" name="Soyad" placeholder="soyadınızı giriniz." required>
+        </p>
+        <p>
+            Eposta <input type="email" name="email" required>
+        </p>
+        <p>
+            Şifre <input type="password" name="sifre" required>
+        <p>
+        Beni Hatırla <input type="checkbox" name="Beni Hatırla">
+        </p>
+        <p>
+            Erkek <input type="radio" name="cinsiyet">
+            Kadın <input type="radio" name="cinsiyet">
+        </p>
+        <p>
+        Kendinizden Bahsedin: <br>
+        <textarea name="hakkimda" rows="4" cols="30" placeholder="Mesajınızı buraya yazın..."></textarea>
+        </p>
+        <p>
+            Hobiler <br>
+
+            Sinema <input type="checkbox" name="Hobi">
+            Spor <input type="checkbox" name="Hobi">
+            Kitap Okumak <input type="checkbox" name="Hobi">
+        </p>
+        <p>
+            Şehir Seçiniz 
+            <select>
+                <option>İstanbul</option>
+                <option>Ankara</option>
+                <option>İzmir</option>
+            </select>
+        </p>
+        <p>
+        Doğum Tarihiniz: <input type="date" name="dogum_tarihi">
+        </p>
+        <p>
+        Sevdiğiniz Renk: <input type="color" name="favori_renk">
+        </p>
+        <p>
+            <select multiple>
+                <option>Java</option>
+                <option>Python</option>
+                <option>C#</option>
+                <option>JavaScript</option>
+            </select>
+        </p>
+        <p>
+        Memnuniyet Seviyeniz (0-10): <br>
+        <input type="range" min="0" max="10" step="1" name="puan">
+        </p>
+        <input type="submit" value="Kaydet">
+
+
+
+    </form>
+</body>
+</html>
