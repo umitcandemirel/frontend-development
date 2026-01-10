@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hemen Üye Ol</title>
+</head>
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr>
+    <h4>Hesap Bilgileriniz</h4>
+    <form>
+        <p><label>Kullanıcı Adı:<input type="text" name="username" placeholder="Kullanıcı adı giriniz." required></label></p>
+        <p><label>Eposta:<input type="email" name="email" placeholder="e-posta giriniz." required></label></p>
+        <p><label>Parola:<input type="password" name="password" placeholder="parola giriniz." required></label></p>
+    <h4>Kişisel Bilgileriniz</h4>
+        <p><label>Ad:<input type="text" name="ad"></label></p>
+        <p><label>Soyad:<input type="text" name="soyad"></label></p>
+        <p><label>Şehir:
+            <select name="Şehir">
+                <option value="">Seçiniz</option>
+                <option value="istanbul">İstanbul</option>
+                <option value="ankara">Ankara</option>
+                <option value="izmir">İzmir</option>
+                <option value="bursa">Bursa</option>
+        </label>
+            </select></p>
+        <p><label>Cinsiyet:<input type="radio" name="cinsiyet" value="erkek">Erkek
+                       <input type="radio" name="cinsiyet" value="kadın">Kadın
+        </label></p>
+        <p><label>Hobileriniz:
+            <input type="checkbox" name="hobi" value="Sinema">Sinema
+            <input type="checkbox" name="hobi" value="gezmek">Gezmek
+            <input type="checkbox" name="hobi" value="spor">Spor
+            <input type="checkbox" name="hobi" value="Kitap">Kitap
+        </label></p>
+        <input type="submit" value="Kaydet">
+    </form>
+</body>
+</html>
