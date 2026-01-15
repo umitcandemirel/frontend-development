@@ -1,34 +1,25 @@
-# 🚀 Frontend Development Journey | Ümitcan Demirel
+# 🌊 Frontend Development Journey | Ümitcan Demirel
 
-[TR] Bu depo, HTML5'in temel ve ileri seviye yapılarını (formlar, kompleks tablolar, medya yönetimi) içeren ve modern web standartlarına uygun olarak geliştirilmiş bir portfolyo çalışmasıdır.
-
-[EN] This repository is a portfolio work demonstrating basic and advanced HTML5 structures (forms, complex tables, media management), developed in accordance with modern web standards.
-
----
-
-## 🇹🇷 Türkçe - HTML5 Uygulamaları (01-HTML5)
-
-### 📝 Formlar ve Etkileşim
-* **[Gelişmiş Kayıt Formu (TR)](./01-HTML5/forms.html)**
-
-### 📊 Veri ve Tablo Yapıları
-* **[Kurs Bilgi Tablosu (TR)](./01-HTML5/tables.html)**
-* **[Karakter Rehberi - Taş Devri (TR)](./01-HTML5/character-database-tr.html)**
-
-### 🖼️ Diğer Çalışmalar
-* **[Görsel Uygulamaları](./01-HTML5/images.html)**
-* **[Hakkımda](./01-HTML5/hakkimda.html)**
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Status](https://img.shields.io/badge/Status-Learning-green?style=for-the-badge)](https://github.com/umitcandemirel)
 
 ---
 
-## 🇺🇸 English - HTML5 Applications (01-HTML5)
+## 🇹🇷 Türkçe Özet
+Bu depo, HTML5'in temel ve ileri seviye yapılarını içeren, modern web standartlarına uygun geliştirilmiş bir portfolyo çalışmasıdır. Python'daki veri yapıları mantığını (Tuple, Set, Dictionaries, Lambda) görsel dünya ile birleştiriyorum.
 
-### 📝 Forms & Interaction
-* **[Advanced Registration Form (EN)](./01-HTML5/forms-en.html)**
+### 🚣‍♂️ Öne Çıkan Proje: World Rowing Showcase
+HTML5 modülünün final projesi olarak tüm teknik yetkinliklerin (Semantik yapı, Iframe, Kompleks Tablolar) harmanlandığı çalışmadır.
+* **Linkler:** [🇬🇧 English Page](./rowing-showcase.html) | [🇹🇷 Türkçe Sayfa](./rowing-showcase-tr.html)
 
-### 📊 Data & Table Structures
-* **[Course Information Table (EN)](./01-HTML5/tables-en.html)**
-* **[Character Showcase - Flintstones (EN)](./01-HTML5/character-database-eng.html)**
+---
+
+## 🇬🇧 English Summary
+This repository is a portfolio demonstrating basic and advanced HTML5 structures. Having built a strong foundation in Python (Tuple, Set, Dictionaries, Lambda), I am now bridging logic with visual web technologies.
+
+### 🚣‍♂️ Featured Project: World Rowing Showcase
+A capstone project of the HTML5 module, integrating semantic architecture, media management, and complex data mapping.
+* **Links:** [🇬🇧 English Page](./rowing-showcase.html) | [🇹🇷 Türkçe Sayfa](./rowing-showcase-tr.html)
 
 ---
 
@@ -42,7 +33,30 @@
 
 ---
 
+## 📂 Proje Arşivi / Project Archive
+
+<details>
+<summary>📂 HTML5 Uygulamaları (Detaylar için tıkla / Click for details)</summary>
+
+### 📝 Forms & Interaction | Formlar ve Etkileşim
+* 🇹🇷 [Gelişmiş Kayıt Formu](./01-HTML5/forms.html)
+* 🇺🇸 [Advanced Registration Form](./01-HTML5/forms-en.html)
+
+### 📊 Data & Table Structures | Veri ve Tablo Yapıları
+* **Kurs Bilgi Tablosu / Course Info Table:**
+  * 🇹🇷 [Türkçe Versiyon](./01-HTML5/tables-tr.html)
+  * 🇺🇸 [English Version](./01-HTML5/tables-en.html)
+* **Karakter Rehberi - Taş Devri / Flintstones:**
+  * 🇹🇷 [Karakter Rehberi](./01-HTML5/character-database-tr.html)
+  * 🇺🇸 [Character Showcase](./01-HTML5/character-database-eng.html)
+
+### 🖼️ Others | Diğer Çalışmalar
+* [Images & Media](./01-HTML5/images.html) | [About Me / Hakkımda](./01-HTML5/hakkimda.html)
+</details>
+
+---
+
 ### 🐍 Arka Plan / Background
-Frontend dünyasına girmeden önce Python üzerinde veri yapıları (**Tuple, Set, Dictionaries, Lambda**) ve kopyalama mantığı üzerine sağlam bir temel attım. Şimdi bu mantıksal derinliği görsel web teknolojileriyle birleştiriyorum.
+Python dünyasından gelen mantıksal derinliği (Tuple, Set, Dictionaries, Lambda) frontend estetiğiyle birleştirerek "Clean Code" prensiplerini her projeye uyguluyorum.
 
 *Keep coding! / Kodlamaya devam!* ⚡
