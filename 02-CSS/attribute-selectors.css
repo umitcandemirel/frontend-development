@@ -1,0 +1,30 @@
+p[title]{
+    border: 1px solid gray;
+    padding: 10px;
+}
+p[title="third paragraph"]{
+    background-color: gold;
+}
+p[title="forth paragraph"]{
+    background-color: silver;
+}
+a[href^="https"]{
+    color: green;
+}
+a[href$=".org"]{
+    font-weight: bold;
+}
+a[href*="example"]{
+    text-decoration: underline;
+}
+input[type="text"]{
+    border: 2px solid blue;
+}
+input[type="text"]{
+    border: 2px solid red;
+}
+input[type="button"]{
+    background-color: lightgray;
+    color:aqua;
+    padding: 10px 5px;
+}

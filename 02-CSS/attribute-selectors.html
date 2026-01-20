@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attribute Selectors</title>
+    <link rel="stylesheet" href="attribute-selectors.css">
+</head>
+<body>
+    <h1>Attribute Selectors</h1>
+    <p>This is a paragraph without the title attribute.</p>
+    <p title="second">
+        p[title] selects all paragraphs containing a title attribute.
+    </p>
+    <p title="third paragraph">
+        p[title="third paragraph"] selects all paragraphs with a title attribute containing the word,paragraph.
+    </p>
+    <p title="forth paragraph">
+        p[title="#4 paragraph"] selects all paragraphs with a title attribute containing the extact text,#4 paragraph.Matches are case-sensitive and must match letter-for letter including whitespace.
+    </p>
+    <p>
+        <a href="http://www.example.org"
+        target="_blank">example 1</a>
+        <a href="https://www.example.com"
+        target="_blank">example 2</a>
+    </p>
+    <p>
+        <input type="text" name="Name">
+        <input type="button" value="button">
+
+    </p>
+</body>
+</html>
