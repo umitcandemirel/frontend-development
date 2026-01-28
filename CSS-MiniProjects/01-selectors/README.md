@@ -34,13 +34,33 @@ The goal of this project is to demonstrate the basic usage of CSS selectors, und
 
 ---
 
+## 📂 Project Files
+
+- [index.html (Türkçe Versiyon)](./index.html)
+- [index-en.html (English Version)](./index-en.html)
+- [style.css](./style.css)
+
+---
+
 ## 📂 Project Structure
+```
 CSS-MiniProjects/
 └── 01-selectors/
 ├── index.html
 ├── style.css
 └── README.md
+```
+---
 
 ## 🚀 Next Steps
 Bu proje tamamlandıktan sonra sıradaki mini proje **02-colors-fonts** olacak.  
 After completing this project, the next mini project will be **02-colors-fonts**.
+
+---
+
+## 📸 Screenshot
+Below are the outputs of the project in both languages:
+- English Version  
+![Selectors Demo Screenshot EN](./selectors-demo-en.png)  
+- Turkish Version  
+![Selectors Demo Screenshot TR](./selectors-demo-tr.png)
