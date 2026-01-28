@@ -1,0 +1,48 @@
+body{
+    background-color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    color:darkgoldenrod;
+    margin-top: 10px;
+    text-align: center;
+}
+header h2{
+    color:brown;
+    margin-top:20px;
+    text-align: center;
+}
+.box{
+    width:400px;
+    border:2px solid gray;
+    padding: 25px;
+    margin: 25px auto;
+    text-align: center;
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+.box p{
+    color:darkslategray;
+    line-height: 1.5;
+}
+.box:hover{
+    background-color: lightyellow;
+    border-color: darkgoldenrod;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.3);
+}
+footer{
+    text-align: center;
+    color:blue;
+    font-weight:bold ;
+}
+footer p{
+    background-color: gold;
+    display: inline-block;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+}
