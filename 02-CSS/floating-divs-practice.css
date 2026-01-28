@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box; /* Padding genişliği bozmasın */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    overflow: hidden; /* Uçuşan (float) elemanları kapsar, mor alanı aşağı çeker */
+}
+
+#blog-post-container {
+    width: 70%;
+    background-color: aquamarine;
+    float: left; /* Sola yasla */
+    padding: 20px;
+    min-height: 400px;
+}
+
+#other-posts {
+    width: 30%;
+    background-color: bisque;
+    float: left; /* Bu da sola yaslanırsa yeşilin dibine gelir */
+    padding: 20px;
+    min-height: 400px;
+}
+
+#author-box {
+    width: 150px;
+    border: 2px solid red;
+    background-color: white;
+    float: right; /* Metnin sağından süzülür */
+    margin: 0 0 15px 15px;
+    text-align: center;
+}
+
+#author-box img {
+    width: 100%;
+    display: block;
+}
+
+.author-text {
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Ufak görsel dokunuşlar */
+h2 { margin-bottom: 10px; }
+.date { color: #666; margin-bottom: 15px; }
+.other { margin-top: 15px; border-bottom: 1px solid #999; }
