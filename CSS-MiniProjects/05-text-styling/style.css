@@ -1,0 +1,38 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #fdfdf8;
+}
+h1{
+    font-weight: bold;
+    color:#4B2E2E;
+    font-size:50px;
+    text-align: center;
+}
+h2{
+    color:#666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color:#333333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+blockquote {
+    font-style: italic;
+    color:#228B22;
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color:#0000EE;
+    text-decoration: none;
+}
+a span{
+    text-decoration: underline;
+}
+a:hover{
+    color:red;
+}
+    
+
