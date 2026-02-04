@@ -98,3 +98,8 @@ footer {
     color: var(--text-dim);
     font-size: 0.85rem;
 }
+.btn-github:hover {
+    background: var(--accent-blue);
+    color: var(--bg-dark) !important;
+    box-shadow: 0 0 15px var(--accent-blue);
+}
