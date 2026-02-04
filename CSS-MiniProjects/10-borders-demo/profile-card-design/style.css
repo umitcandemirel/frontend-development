@@ -1,0 +1,36 @@
+.card {
+    width: 300px;         
+    margin: 20px auto;     
+    padding: 20px;         
+    text-align: center;
+    border: 2px dashed red;
+    border-radius: 10px;   
+    box-sizing: border-box;
+}
+.avatar {
+    width: 120px;         
+    height: 120px;
+    border-radius: 50%;    
+    border: 3px solid gray;
+    margin-bottom: 15px;
+}
+.follow {
+    padding: 10px 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.follow:hover {
+    border-color: blue;    
+    border-width: 3px;     
+}
+.card p {
+    font-size: 14px;       
+    color: #555;            
+    line-height: 1.5;       
+    margin: 10px 0 20px;    
+    padding: 0 10px;        
+}
