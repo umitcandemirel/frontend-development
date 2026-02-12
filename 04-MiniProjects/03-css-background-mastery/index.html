@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Backgrounds Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Background Mastery | Ümitcan Demirel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ümitcan Demirel</h1>
-    <h2>Frontend Developer</h2>
-    <p id="description">Bu sayfa CSS background özelliklerini göstermek için hazırlanmıştır.</p>
-    
-    <h3>Background Colors</h3>
-    <div class="bg-color-box light"></div>
-    <p>Light Blue Background</p>
-    <div class="bg-color-box dark"></div>
-    <p>Dark Slate Gray Background</p>
+    <main class="mastery-container">
+        <header>
+            <h1>Ümitcan Demirel</h1>
+            <p id="description">Professional demonstration of CSS background properties, including gradients and image scaling.</p>
+        </header>
 
-    <h3>Background Images</h3>
-    <div class="bg-image-box"></div>
-    <p>Image Background (cover)</p>
+        <section class="demo-section">
+            <h2>Background Colors & Gradients</h2>
+            <div class="box bg-solid">Solid Color</div>
+            <div class="box bg-gradient">Linear Gradient</div>
+        </section>
 
-    <a href="https://github.com/umitcandemirel" target="_blank">GitHub Profile</a>
+        <section class="demo-section">
+            <h2>Background Images</h2>
+            <div class="box bg-image-cover">Background Cover</div>
+            <div class="box bg-image-contain">Background Contain</div>
+        </section>
+
+        <footer>
+            <a href="https://github.com/umitcandemirel" target="_blank" rel="noopener noreferrer">
+                Visit My GitHub Profile
+            </a>
+        </footer>
+    </main>
 </body>
 </html>

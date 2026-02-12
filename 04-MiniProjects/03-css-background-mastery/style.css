@@ -1,70 +1,92 @@
-
+/* --- Global Background & Typography Settings --- */
 body {
-    background-color: beige; 
-    font-family: sans-serif;
+    background-color: #f5f5dc; /* Beige */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
+    color: #333;
 }
 
-
+/* --- Header Styling with RGBA Alpha Channel --- */
 h1 {
-    color: darkblue;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
+    color: #00008b;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
-h2 {
-    font-style: italic;
-    color: red;
-    margin-bottom: 20px;
-}
-
+/* --- Mastery Sections --- */
 h3 {
-    color: purple;
-    margin-top: 30px;
+    color: #4b0082; /* Indigo */
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
 }
-
 
 #description {
-    background-color: yellow;
-    padding: 10px;
+    background-color: #fff176; /* Softer Yellow */
+    padding: 10px 20px;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-weight: 500;
 }
 
-
-.bg-color-box, .bg-image-box {
-    width: 200px;
-    height: 100px;
-    margin: 10px auto;
-    border: 2px solid #333;
+/* --- Reusable Box Component --- */
+.box {
+    width: 250px;
+    height: 150px;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-
-.bg-color-box.light {
-    background-color: lightblue;
+/* --- Background Color & Gradient Techniques --- */
+.bg-solid {
+    background-color: #3498db;
 }
 
-.bg-color-box.dark {
-    background-color: darkslategray;
+.bg-gradient {
+    /* Modern Linear Gradient Practice */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-
-.bg-image-box {
+/* --- Background Image Mastery --- */
+.bg-image-cover {
     background-image: url('background.jpg'); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
+.bg-image-contain {
+    background-image: url('background.jpg'); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff; /* Background color fills the empty space */
+}
 
+/* --- Navigation Links --- */
 a {
-    color: darkmagenta;
-    text-decoration: underline;
-    display: block;
-    margin-top: 30px;
+    color: #8b008b;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 40px;
+    transition: transform 0.2s ease;
 }
 
 a:hover {
-    color: red;
-    text-decoration: underline;
+    color: #ff0000;
+    transform: scale(1.1); /* Subtle zoom effect */
 }

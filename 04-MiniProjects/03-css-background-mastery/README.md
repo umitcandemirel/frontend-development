@@ -1,59 +1,29 @@
-# 03-Backgrounds Demo
+# 03 - CSS Background Mastery / CSS Arka Plan Uzmanlığı
 
-## 🇹🇷 Türkçe Açıklama
+[EN] This project focuses on the versatile use of CSS background properties, covering everything from RGBA transparency to modern linear gradients and image scaling techniques.
+[TR] Bu proje; RGBA şeffaflığından modern lineer gradyanlara ve görsel ölçeklendirme tekniklerine kadar CSS arka plan özelliklerinin çok yönlü kullanımına odaklanmaktadır.
 
-Bu mini proje, CSS **background özelliklerini** göstermek için hazırlanmıştır.  
-Arka plan renkleri ve arka plan görselleri kullanılarak farklı örnekler sunulmuştur.  
+## 🖼️ Preview / Önizleme
+![Project Preview](preview.png)
 
-### Kullanılan Özellikler
-- **background-color** → Arka plan rengi belirleme  
-- **background-image** → Arka plana görsel ekleme  
-- **background-repeat** → Görselin tekrar edip etmeyeceğini kontrol etme  
-- **background-position** → Görselin konumunu ayarlama  
-- **background-size** → Görselin boyutunu ayarlama (cover, contain)  
-- **background-attachment** → Kaydırma davranışını belirleme (scroll, fixed)  
+## 🎯 Key Features / Önemli Özellikler
 
----
+### 🇬🇧 English
+* **Alpha Channel Transparency:** Used `rgba()` to create readable text overlays on top of backgrounds.
+* **Gradient Mastery:** Implemented modern `linear-gradient` backgrounds for a dynamic UI.
+* **Background Scaling:** Demonstrated the critical difference between `background-size: cover` and `contain`.
+* **Visual Polish:** Added `box-shadow` and `border-radius` to create modern, card-like UI components.
 
-## 🇬🇧 English Description
+### 🇹🇷 Türkçe
+* **Alpha Kanalı Şeffaflığı:** Arka planlar üzerinde okunabilir metin katmanları oluşturmak için `rgba()` kullanıldı.
+* **Gradyan Uzmanlığı:** Dinamik bir kullanıcı arayüzü için modern `linear-gradient` arka planlar uygulandı.
+* **Arka Plan Ölçeklendirme:** `background-size: cover` ve `contain` arasındaki kritik farklar sergilendi.
+* **Görsel Rötuşlar:** Modern, kart yapısında arayüz bileşenleri oluşturmak için `box-shadow` ve `border-radius` eklendi.
 
-This mini project demonstrates CSS **background properties**.  
-Examples include background colors and background images applied to different elements.  
+## 🛠️ Technical Stack / Teknolojiler
+* **HTML5** (Semantics & Layout)
+* **CSS3** (Gradients, Scaling, Positioning, Shadows)
 
-### Applied Features
-- **background-color** → Setting background colors  
-- **background-image** → Adding images to backgrounds  
-- **background-repeat** → Controlling repetition of images  
-- **background-position** → Adjusting image placement  
-- **background-size** → Scaling images (cover, contain)  
-- **background-attachment** → Controlling scroll behavior (scroll, fixed)  
-
----
-
-## 📂 Project Files
-
-- [index.html](./index.html)  
-- [index-en.html](./index-en.html)  
-- [style.css](./style.css)  
-- [README.md](./README.md)  
-
----
-
-## 📂 Project Structure
-```
-CSS-MiniProjects/
-└── 03-backgrounds/
-├── index.html
-├── index-en.html
-├── style.css
-└── README.md
-```
-
----
-
-
----
-
-## 📸 Screenshot
-
-![Backgrounds Demo](./backgrounds-demo.png)
+## 💡 Developer Note / Geliştirici Notu
+[EN] In this lab, I mastered how to handle background images without distortion and how to use gradients to replace heavy image assets, improving page performance.
+[TR] Bu laboratuvar çalışmasında, arka plan görsellerini bozulmadan yönetmeyi ve sayfa performansını artırmak için ağır görsel dosyaları yerine gradyanları nasıl kullanacağımı öğrendim.
