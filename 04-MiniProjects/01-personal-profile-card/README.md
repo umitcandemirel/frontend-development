@@ -1,66 +1,29 @@
-# 01-Selectors Demo
+# 01 - Personal Profile Card / Kişisel Profil Kartı
 
-## 🇹🇷 Türkçe Açıklama
+[EN] This project is a professional profile card designed to demonstrate core CSS selectors, semantic HTML5 structure, and clean code principles.
+[TR] Bu proje; temel CSS seçicilerini, semantik HTML5 yapısını ve temiz kod prensiplerini sergilemek için tasarlanmış profesyonel bir profil kartıdır.
 
-Bu mini proje, CSS seçicilerini öğrenmek ve uygulamak amacıyla hazırlanmıştır.  
-Frontend öğrenme yolculuğumda, HTML yapısı üzerinde farklı CSS seçicilerinin nasıl çalıştığını göstermek için basit ama öğretici bir örnek oluşturdum.  
+## 🖼️ Preview / Önizleme
+![Project Preview](preview.png)
 
-### Kullanılan Seçiciler
-- **Element seçicileri:** h1, h2, h3, p  
-- **Class seçici:** .intro  
-- **ID seçicileri:** #tech-skills, #personal-info  
-- **Descendant seçici:** #tech-skills li  
-- **Pseudo-class:** a:hover  
+## 🎯 Key Features / Önemli Özellikler
 
-### Amaç
-Bu proje ile CSS seçicilerinin temel kullanımını göstermek, farklı seçici türlerinin nasıl çalıştığını anlamak ve ileride daha karmaşık stillendirmeler için sağlam bir temel oluşturmak hedeflenmiştir.  
+### 🇬🇧 English
+* **Semantic HTML5:** Used `<main>`, `<header>`, and `<section>` for better SEO and accessibility.
+* **CSS Selectors Mastery:** Implemented ID, Class, Element, and Descendant selectors efficiently.
+* **Global Styling:** Managed typography and colors from a central point to follow DRY (Don't Repeat Yourself) principles.
+* **Responsive Basics:** Prepared with a viewport meta tag for mobile compatibility.
 
----
+### 🇹🇷 Türkçe
+* **Semantik HTML5:** Daha iyi SEO ve erişilebilirlik için `<main>`, `<header>` ve `<section>` etiketleri kullanıldı.
+* **CSS Seçicileri:** ID, Class, Element ve Torun (Descendant) seçicileri verimli bir şekilde uygulandı.
+* **Global Stil Yönetimi:** DRY (Kendini Tekrar Etme) prensiplerine uyarak tipografi ve renkler merkezi bir noktadan yönetildi.
+* **Mobil Uyumluluk Temelleri:** Mobil cihazlarla uyumluluk için viewport meta etiketi eklendi.
 
-## 🇬🇧 English Description
+## 🛠️ Technical Stack / Teknolojiler
+* **HTML5** (Semantic Structure)
+* **CSS3** (Advanced Selectors & Layout)
 
-This mini project was created to practice and demonstrate the use of CSS selectors.  
-As part of my frontend learning journey, I built a simple yet instructive example to show how different CSS selectors interact with an HTML structure.  
-
-### Applied Selectors
-- **Element selectors:** h1, h2, h3, p  
-- **Class selector:** .intro  
-- **ID selectors:** #tech-skills, #personal-info  
-- **Descendant selector:** #tech-skills li  
-- **Pseudo-class:** a:hover  
-
-### Purpose
-The goal of this project is to demonstrate the basic usage of CSS selectors, understand how different types of selectors work, and establish a solid foundation for more advanced styling in future projects.  
-
----
-
-## 📂 Project Files
-
-- [index.html (Türkçe Versiyon)](./index.html)
-- [index-en.html (English Version)](./index-en.html)
-- [style.css](./style.css)
-
----
-
-## 📂 Project Structure
-```
-CSS-MiniProjects/
-└── 01-selectors/
-├── index.html
-├── style.css
-└── README.md
-```
----
-
-## 🚀 Next Steps
-Bu proje tamamlandıktan sonra sıradaki mini proje **02-colors-fonts** olacak.  
-After completing this project, the next mini project will be **02-colors-fonts**.
-
----
-
-## 📸 Screenshot
-Below are the outputs of the project in both languages:
-- English Version  
-![Selectors Demo Screenshot EN](./selectors-demo-en.png)  
-- Turkish Version  
-![Selectors Demo Screenshot TR](./selectors-demo-tr.png)
+## 💡 Developer Note / Geliştirici Notu
+[EN] In this project, I focused on writing clean, maintainable CSS by grouping selectors and using professional English documentation within the code.
+[TR] Bu projede, seçicileri gruplandırarak ve kod içerisinde profesyonel İngilizce dökümantasyon kullanarak temiz ve sürdürülebilir CSS yazmaya odaklandım.
