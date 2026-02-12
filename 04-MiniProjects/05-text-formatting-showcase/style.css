@@ -1,38 +1,75 @@
-body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+/* --- Global Typography Settings --- */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #fdfdf8;
+    line-height: 1.8; /* Improves readability by adding space between lines */
+    color: #333333;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
-h1{
-    font-weight: bold;
-    color:#4B2E2E;
-    font-size:50px;
-    text-align: center;
-}
-h2{
-    color:#666666;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-p{
-    color:#333333;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-blockquote {
-    font-style: italic;
-    color:#228B22;
-    border-left: 4px solid #ccc;
-    padding-left: 10px;
-    margin: 10px 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-a{
-    color:#0000EE;
-    text-decoration: none;
-}
-a span{
-    text-decoration: underline;
-}
-a:hover{
-    color:red;
-}
-    
 
+/* --- Heading Styles --- */
+h1 {
+    font-weight: 900;
+    color: #4B2E2E;
+    font-size: 3.5rem; /* Using rem for scalable sizing */
+    text-align: center;
+    letter-spacing: -1px; /* Tighter look for large headings */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #666;
+    text-align: center;
+    font-weight: 300;
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* --- Blockquote Styling --- */
+blockquote {
+    font-family: 'Verdana', sans-serif;
+    font-style: italic;
+    color: #228B22;
+    border-left: 5px solid #228B22; /* Matches the text color */
+    padding: 20px 30px;
+    margin: 40px 0;
+    background-color: #f0fff0; /* Very light green background */
+    font-size: 1.2rem;
+    position: relative;
+}
+
+/* Adding a citation style */
+cite {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+    font-style: normal;
+    text-align: right;
+}
+
+/* --- Link & Interaction --- */
+.github-link {
+    color: #0000EE;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    transition: all 0.3s ease;
+}
+
+.github-link span {
+    text-decoration: underline;
+    text-underline-offset: 4px; /* Space between text and underline */
+}
+
+.github-link:hover {
+    color: #ff0000;
+    transform: translateY(-2px);
+}

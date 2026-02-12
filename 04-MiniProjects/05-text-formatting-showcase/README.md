@@ -1,63 +1,29 @@
-# 05-Text Styling Demo
+# 05 - Text Formatting Showcase / Metin Biçimlendirme Sergisi
 
-## 🇹🇷 Türkçe Açıklama
+[EN] This project serves as a comprehensive gallery of CSS text properties, demonstrating how typography impacts visual hierarchy and user experience on the web.
+[TR] Bu proje; tipografinin görsel hiyerarşi ve kullanıcı deneyimi üzerindeki etkisini gösteren, CSS metin özelliklerinin kapsamlı bir galerisidir.
 
-Bu mini proje, CSS ile metin stillerini göstermek için hazırlanmıştır.  
-Başlık, alt başlık, paragraf, alıntı (blockquote) ve bağlantı (link) öğeleri üzerinde farklı font, renk, hizalama ve dekorasyon özellikleri uygulanmıştır.  
+## 🖼️ Preview / Önizleme
+![Project Preview](preview.png)
 
-### Kullanılan Özellikler
-- **font-family** → Yazı tipini belirleme  
-- **font-size** → Yazı boyutunu ayarlama  
-- **font-weight** → Yazının kalınlığını ayarlama  
-- **font-style** → İtalik veya normal yazı stili  
-- **text-align** → Metin hizalaması (sol, sağ, ortalı, justify)  
-- **text-decoration** → Altı çizili, üstü çizili veya none  
-- **text-transform** → Büyük/küçük harf dönüşümleri  
-- **color** → Yazı rengini ayarlama  
-- **blockquote** → Alıntı havası katmak için kullanıldı  
-- **hover effect** → Link üzerine gelince rengini değiştirme  
+## 🎯 Key Features / Önemli Özellikler
 
----
+### 🇬🇧 English
+* **Typographic Hierarchy:** Used font sizes, weights, and `text-transform` to create a clear reading path.
+* **Modern Readability:** Applied `line-height` (leading) and `letter-spacing` (tracking) for optimal legibility.
+* **Specialized Formatting:** Styled `blockquote` and `cite` elements to create distinct, high-impact pull quotes.
+* **Advanced Decoration:** Utilized `text-underline-offset` and `text-shadow` for professional aesthetic touches.
 
-## 🇬🇧 English Description
+### 🇹🇷 Türkçe
+* **Tipografik Hiyerarşi:** Net bir okuma yolu oluşturmak için font boyutları, ağırlıkları ve `text-transform` kullanıldı.
+* **Modern Okunabilirlik:** Optimum okunabilirlik için `line-height` ve `letter-spacing` uygulandı.
+* **Özelleştirilmiş Biçimlendirme:** Etkileyici alıntılar oluşturmak için `blockquote` ve `cite` öğeleri stilize edildi.
+* **Gelişmiş Süsleme:** Profesyonel estetik dokunuşlar için `text-underline-offset` ve `text-shadow` kullanıldı.
 
-This mini project demonstrates text styling with CSS.  
-Different font properties, alignment, and decoration styles are applied to headings, paragraphs, blockquotes, and links.  
+## 🛠️ Technical Stack / Teknolojiler
+* **HTML5** (Semantics & Text Elements)
+* **CSS3** (Typography, Spacing, Text Effects)
 
-### Applied Features
-- **font-family** → Setting the font type  
-- **font-size** → Adjusting text size  
-- **font-weight** → Controlling text thickness  
-- **font-style** → Italic or normal text style  
-- **text-align** → Aligning text (left, right, center, justify)  
-- **text-decoration** → Underline, strikethrough, or none  
-- **text-transform** → Uppercase, lowercase, capitalize  
-- **color** → Setting text color  
-- **blockquote** → Used to add quotation style  
-- **hover effect** → Changing link color on mouse hover  
-
----
-
-## 📂 Project Files
-
-- [index.html](./index.html)  
-- [style.css](./style.css)  
-- [README.md](./README.md)  
-
----
-
-## 📂 Project Structure
-```
-CSS-MiniProjects/
-└── 05-text-styling/
-├── index.html
-├── style.css
-└── README.md
-```
-
-
----
-
-## 📸 Screenshot
-
-![Text Styling Demo](./text-styling-demo.png)
+## 💡 Developer Note / Geliştirici Notu
+[EN] "Web design is 95% typography." In this lab, I focused on fine-tuning the space between characters and lines to turn raw text into a professional interface.
+[TR] "Web tasarımı %95 tipografidir." Bu laboratuvarda, ham metni profesyonel bir arayüze dönüştürmek için karakterler ve satırlar arasındaki boşlukları optimize etmeye odaklandım.
